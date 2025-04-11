@@ -22,7 +22,6 @@ pip install -r requirements.txt
 ## 🚀 **Usage**
 Evaluate the pretrained neural network CBF and controller:  
 ```bash
-cd cars 
 python evaluate.py --num_agents 32 --model_path models/model_iter_9999 --vis 1
 ```
 `--num_agents` defines the number of agents present in the environment. `--model_path` specifies the prefix for the pretrained neural network weights. By default, visualization is turned off and can be enabled by setting `--vis` to 1.
